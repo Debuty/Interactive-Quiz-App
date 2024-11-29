@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Main.css">
+
+    <title>Interactive Quiz App</title>
+</head>
+
+<body>
+
+    <div class="Main_Div">
+
+        <div class="category_Count_Qus">
+
+            <div class="category">category : <span>Html</span></div>
+            <div class="Questions_Count">Questions Count : <span> </span> </div>
+
+
+        </div>
+
+
+        <div class="Main_Answer_Question">
+
+            <h1 class="The_Question"></h1>
+
+            <div class="Div_Of_Answer">
+
+
+                <div class="Div_of_All_Answer"> <input type="radio" name="Answer" value="Answer_1" id="Answer_1"
+                        checked>
+                    <label class="label_Of_Answer" for="Answer_1"> To Make Text Bold</label>
+                </div>
+
+                <div class="Div_of_All_Answer"><input type="radio" name="Answer" value="Answer_2" id="Answer_2">
+                    <label class="label_Of_Answer" for="Answer_2"> To Make Text Italic</label>
+                </div>
+
+                <div class="Div_of_All_Answer"> <input type="radio" name="Answer" value="Answer_3" id="Answer_3">
+                    <label class="label_Of_Answer" for="Answer_3"> To Add Breakline</label>
+                </div>
+
+                <div class="Div_of_All_Answer"> <input type="radio" name="Answer" value="Answer_4" id="Answer_4"><label
+                        class="label_Of_Answer" for="Answer_4"> To Create Horizontal Line</label> </div>
+
+
+            </div>
+        </div>
+
+        <button class="Submit_Answer">Submit Answer</button>
+
+        <div class="Main_Timer_And_Stars">
+
+            <div class="Div_Of_Stars">
+
+            </div>
+
+            <div class="Timer">
+                <span class="Minutes">00</span>:<span class="secodes">10</span>
+            </div>
+
+        </div>
+
+      
+    </div>
+
+    <div class="Resulte">
+        <span class="bad"></span> You Answerd 10 Of 10
+    </div>
+
+
+
+    <script src="Main.js"></script>
+</body>
+
+</html>
